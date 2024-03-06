@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.1.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1bcd6e57-e278-4e0c-b925-81209e10adcb">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="tipo" class="java.lang.String"/>
+	<parameter name="cantidad" class="java.lang.String"/>
+	<parameter name="precio" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="297" splitType="Stretch">
+			<image>
+				<reportElement x="-20" y="-20" width="595" height="305" uuid="838e9ff3-eb91-4e94-845f-c876becfbe4b"/>
+				<imageExpression><![CDATA["C:/Users/david/eclipse-workspace/PrácticaPSPServidorTCP/img/banner.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="120" y="210" width="330" height="75" uuid="6e61b0b2-cf30-4106-b807-6525d8e2b25b"/>
+				<imageExpression><![CDATA["C:/Users/david/eclipse-workspace/PrácticaPSPServidorTCP/img/fecha.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="-50" y="100" width="220" height="180" uuid="b51d1445-f40e-4848-b486-aa48d71afa04"/>
+				<imageExpression><![CDATA["C:/Users/david/eclipse-workspace/PrácticaPSPServidorTCP/img/feid2.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="430" y="90" width="168" height="178" uuid="98e1fa5f-7548-4f26-94da-ded86a2e688c"/>
+				<imageExpression><![CDATA["C:/Users/david/eclipse-workspace/PrácticaPSPServidorTCP/img/badbu.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="295" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="20" width="511" height="30" uuid="8239bee2-a209-4330-b242-24a4ec884f06"/>
+				<textElement>
+					<font fontName="Berlin Sans FB Demi" size="20"/>
+				</textElement>
+				<text><![CDATA[GLOBAL FESTIVAL FEST 2024   ||   DVD EVENTS ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="90" width="271" height="41" uuid="f3470924-5d23-46cf-8918-fe010996eeeb"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Fecha: 02/07/2024     Hora: 21:00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="60" width="230" height="31" uuid="020938f5-72fa-4374-9708-8a9ff977d5fb"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[WIZINK CENTER - Av. Felipe II, s/n]]></text>
+			</staticText>
+			<image>
+				<reportElement x="400" y="60" width="121" height="120" uuid="7b871773-7d55-485b-a050-7b90813eb694"/>
+				<imageExpression><![CDATA["C:/Users/david/eclipse-workspace/PrácticaPSPServidorTCP/img/qr.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="20" y="163" width="101" height="31" uuid="24f4725b-9a7f-446a-9cb2-d9acedcda818"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tarifa: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="213" width="101" height="31" uuid="ed9be4a5-8c32-4d95-89e3-3bea4c412658"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cantidad:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="260" width="101" height="31" uuid="d0ad5516-bbb5-4354-a8e3-d9d484ab0811"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Importe:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="166" width="100" height="30" uuid="7dbc5959-09c7-4f4a-98b7-279e1c93a695"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sector:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="166" width="100" height="30" uuid="aed89f6e-7923-4acf-90ab-7b4e7da84424"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Pista]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="77" y="163" width="100" height="30" uuid="4fe0708d-0282-4979-ac6f-a6f6b3193202"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tipo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="95" y="214" width="100" height="30" uuid="7e092b47-bc94-4a6d-99af-0a14e55b75e5"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="261" width="100" height="30" uuid="f30499c2-80bc-4a94-9349-58403e219c97"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{precio} + " Euros"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="90" splitType="Stretch">
+			<staticText>
+				<reportElement x="195" y="-4" width="180" height="20" uuid="f2f0b15e-62f6-43ae-be35-af7d64f669a0"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Condiciones Generales]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="18" width="530" height="69" uuid="09399b4f-2c50-4a79-b554-2883d29cb721"/>
+				<text><![CDATA[-La entrada al recinto implica el aceptar las normas higiénico  sanitarias marcadas por el BOCM en vigor.                              - La realización del espectáculo está sujeta a la normativa establecida por las autoridades sanitarias y su cumplimiento, por lo que puede experimentar cambios hasta la misma fecha.                                                             		                          -Al  comprar la entrada, compruebe que el espectáculo, fecha, horario, situación y precio sean los correctos, ya que no se admitirán cambios ni devoluciones.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="69" splitType="Stretch">
+			<componentElement>
+				<reportElement x="175" y="0" width="205" height="69" uuid="6cdd737e-aff9-4593-aa8a-63e15dd3d14a"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code39 (Extended)" drawText="false" checksumRequired="false">
+					<jr:codeExpression><![CDATA["1234"]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+		</band>
+	</pageFooter>
+</jasperReport>
